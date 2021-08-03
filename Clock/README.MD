@@ -7,4 +7,4 @@
 - It also supports switching themes 🙂
 
 <br><br>
-<!-- Feedbacks are appreciated 😄 -->
+Feedbacks are appreciated 😄
