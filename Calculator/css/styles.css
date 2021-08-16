@@ -1,7 +1,7 @@
 
 body{
     background: url("../images/bg-scene.jpg") center/cover no-repeat;
-    height: 100vh;
+    max-height: 100vh;
 }
 h1 {
     font-size: 4rem;
@@ -66,4 +66,13 @@ button:hover {
 }
 #back:hover {
     background-color: red;
+}
+p {
+    text-align: center;
+    color: rgb(21, 255, 0);
+    font-size: 20px;
+}
+
+p a {
+    color: rgb(255, 0, 255);
 }
