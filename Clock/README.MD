@@ -6,5 +6,8 @@
 - This is a basic hybrid clock build using HTML, CSS and Javascript. 
 - It also supports switching themes 🙂
 
-<br><br>
+![Screenshot](image/Screenshot-dark.png)
+![Screenshot](image/Screenshot-light.png)
+
+<br>
 Feedbacks are appreciated 😄
