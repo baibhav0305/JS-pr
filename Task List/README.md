@@ -2,5 +2,7 @@
 
 # Task List
 - A basic task managing web app built using HTML, CSS and Javascript.
-<br>
+
+![Screenshot](image/Screenshot.png)
+
 Feedbacks are appreciated.😄
