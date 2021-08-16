@@ -7,6 +7,7 @@
 - It also supports switching themes 🙂
 
 ![Screenshot](image/Screenshot-dark.png)
+<br>
 ![Screenshot](image/Screenshot-light.png)
 
 <br>
