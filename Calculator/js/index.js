@@ -28,11 +28,13 @@ for (item of buttons) {
         }
         else if (buttonText == '=') {
             let answer = eval(screenValue);
+            console.log(answer);
             screen.value = answer;
         }
         else {
             screenValue += buttonText;
             screen.value = screenValue;
         }
+        // console.log(screen.value);
     })
 }
