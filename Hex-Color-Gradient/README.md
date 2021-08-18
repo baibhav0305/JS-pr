@@ -1,3 +1,2 @@
 # Hex Color Gradient
 
-### URL: 
