@@ -1,6 +1,8 @@
 
 document.getElementById("submit").addEventListener("click", () => {
 
+    console.log("clicked");
+
     var hex_numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"];
     var hex1 = "";
     var hex2 = "";
@@ -22,10 +24,22 @@ document.getElementById("submit").addEventListener("click", () => {
         hex4 += hex_numbers[random_index];
     }
 
+    var str = document.querySelector("a").innerHTML;
+    console.log(str);
     document.body.style.background = `linear-gradient(to right, #${hex1}, #${hex2})`;
     document.querySelector("button").style.background = `linear-gradient(to right, #${hex3}, #${hex4})`;
+    // document.querySelector("a").style.color = `linear-gradient(to right, #${hex3}, #${hex4})`;
+    // str.style.color = `linear-gradient(to right, #${hex3}, #${hex4})`;
+
 
     document.getElementById("hex1").textContent = hex1;
     document.getElementById("hex2").textContent = hex2;
 
 });
+
+document.querySelector("a").addEventListener("click", function(){
+
+    let link = document.querySelector("a").innerText;
+    console.log("clicked",link);
+    
+;})
